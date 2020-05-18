@@ -1,0 +1,22 @@
+{
+	"entries": [
+		{
+			"input": "./src/browser_action.imba",
+			"output": {
+				"file": "./js/browser_action.js",
+				"format": "iife",
+				"name": "bundle",
+				"sourcemap": true
+			}
+		},
+		{
+			"input": "./src/content.imba",
+			"output": {
+				"file": "./js/content.js",
+				"format": "iife",
+				"name": "bundle",
+				"sourcemap": true
+			}
+		}
+	]
+}

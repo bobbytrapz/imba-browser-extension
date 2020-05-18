@@ -1,0 +1,33 @@
+{
+  "name": "simple-browser-extension-imba-v1",
+  "description": "Simple browser extension using imba v1",
+  "keywords": [
+    "imba"
+  ],
+  "author": "Bobby",
+  "bugs": "https://github.com/bobbytrapz/imba-browser-extension/issues",
+  "version": "0.1",
+  "scripts": {
+    "build": "webpack --mode=production",
+    "watch": "webpack --mode=development --watch --progress --colors --display-modules"
+  },
+  "files": [],
+  "directories": {},
+  "homepage": "https://github.com/bobbytrapz/imba-browser-extension",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bobbytrapz/imba-browser-extension.git"
+  },
+  "license": "CC0",
+  "dependencies": {
+    "css-loader": "^3.2.0",
+    "express": "^4.17.1",
+    "imba": "^1.5.2",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.39.3",
+    "webpack-dev-server": "^3.8.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.7"
+  }
+}

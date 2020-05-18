@@ -1,0 +1,38 @@
+{
+  "manifest_version": 2,
+  "name": "simple-browser-extension-imba-v1",
+  "version": "0.1",
+
+  "description": "Simple browser extension using imba v1",
+
+  "permissions": [
+    "<all_urls>"
+  ],
+
+  "icons": {
+    "48": "icons/border-48.png"
+  },
+
+  "browser_action": {
+    "default_icon": "icons/border-48.png",
+    "default_title": "simple imba v1",
+    "default_popup": "pages/browser_action.html"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["js/content.js"]
+    }
+  ],
+
+  "web_accessible_resources": [
+  ],
+
+  "commands": {
+  },
+
+  "background": {
+    "page": "pages/background.html"
+  }
+}

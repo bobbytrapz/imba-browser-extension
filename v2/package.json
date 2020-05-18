@@ -1,0 +1,27 @@
+{
+  "name": "simple-browser-extension-imba-v2",
+  "description": "Simple browser extension using imba v2",
+  "keywords": [
+    "imba"
+  ],
+  "author": "Bobby",
+  "bugs": "https://github.com/bobbytrapz/imba-browser-extension/issues",
+  "version": "0.1",
+  "scripts": {
+    "build": "imba-rollup",
+    "check-version": "imbac --version"
+  },
+  "files": [],
+  "directories": {},
+  "homepage": "https://github.com/bobbytrapz/imba-browser-extension",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bobbytrapz/imba-browser-extension.git"
+  },
+  "license": "CC0",
+  "dependencies": {
+    "imba": "^2.0.0-alpha.45",
+    "imba-rollup": "^2.0.0-alpha.42"
+  },
+  "devDependencies": {}
+}
