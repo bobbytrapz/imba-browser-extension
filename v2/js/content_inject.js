@@ -12,6 +12,6 @@ if (!window.didInject) {
             document.body.innerHTML += data;
         })
         .catch(err => {
-            console.error(`content_inject: _popup.html: ${err}`);
+            console.error(`_content.html: ${err}`);
         });
 }
